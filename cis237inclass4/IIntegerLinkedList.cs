@@ -13,6 +13,11 @@ namespace cis237inclass4
 
         void Display();
 
+        void AddToFront(int IntegerData);
+        void AddToBack(int IntegerData);
+        int RemoveFromFront();
+        int RmoveFromBack();
+
         bool IsEmpty { get; }
         int Size { get; }
 
