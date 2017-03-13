@@ -141,9 +141,9 @@ namespace cis237inclass4
                 // by setting tail's next property to null
                 _tail.Next = null;
 
-                return returnData;
-            }
                 
+            }
+            return returnData;
         }
 
         public void AddMaintainSort(int IntegerData)
